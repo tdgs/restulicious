@@ -22,4 +22,11 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency('minitest', '>= 3.0.0')
   gem.add_development_dependency('mocha')
   gem.add_development_dependency('rake')
+
+  # Guard and the rest
+  gem.add_development_dependency('guard-minitest')
+  gem.add_development_dependency('rb-inotify')
+  gem.add_development_dependency('rb-fsevent')
+  gem.add_development_dependency('rb-fchange')
+  gem.add_development_dependency('ruby_gntp')
 end
